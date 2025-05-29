@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="cart-page for our products">
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <img src="images/RainyDays_Logo.png" alt="companylogo">
+        <nav>
+            <ul>
+                <li> <a href="home.html"> Home</a></li>
+                <li><a href= "product.html"> Products</a></li>
+                <li><a href="about-us.html"> About Us</a></li>
+                <li> 
+                    <input type="Heart-icon" name="Heart-icon" id="Heart-icon">
+                </li>
+                <li>
+                    <input type="Search-icon" name="Search-icon" id="Search-icon">
+                </li>
+                <li>
+                    <input type="cart-icon" name="cart-icon" id="Cart-icon">
+                </li>
+            </ul>
+        </nav>
+    </header>
+<main>
+    <h1>Shopping Cart</h1>
+</main>
+    <footer></footer>
+</body>
+</html>
