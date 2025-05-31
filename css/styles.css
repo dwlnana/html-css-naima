@@ -1,0 +1,24 @@
+header {
+    background-color:#113340;
+    header a{color: #fff;}  
+    color: white;
+}
+.cta-button{
+    background-color: #113340;
+    color: white;
+}
+.shipping-discount{
+    background-color: #113340;
+    color: white;
+}
+
+.avaliable--products{
+    border-color: #757575;
+}
+footer{
+    background-color: #113340;
+    color: white;
+}
+img{
+    background-color: white;
+}
