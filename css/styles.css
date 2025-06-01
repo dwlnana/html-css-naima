@@ -6,28 +6,24 @@ p{
 
 header {
     background-color:#113340;
-    header a{color: #fff;}  
     color: white;
+}
+
+header a{
+    color: white;
+    padding: 10px;
 }
 .cta-button{
     background-color: #113340;
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
 }
 .shipping-discount{
     background-color: #113340;
     color: white;
-}
-
-.avaliable--products{
-    border-color: #757575;
-}
-footer{
-    background-color: #113340;
-    color: white;
-}
-.footer-copy{
-    text-align: center;
 }
 img{
     background-color: white;
@@ -35,6 +31,15 @@ img{
 }
 p{
     max-width: 50ch;
+}
+
+/*Footer*/
+footer{
+    background-color: #113340;
+    color: white;
+}
+.footer-copy{
+    text-align: center;
 }
 
 /*Links*/
@@ -86,4 +91,10 @@ nav li{
     background-image: url(tent.jpg);
     background-size: cover;
     background-position: center;
+}
+
+/*product*/
+.available_products{
+    border-style:groove;
+    border-color: #757575;
 }
