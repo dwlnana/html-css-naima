@@ -13,6 +13,20 @@ header a{
     color: white;
     padding: 10px;
 }
+
+.navbar{
+    width: 100%;
+    padding: 15px 75px;
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+}
+.navbar-logo{
+    size: 100%;
+}
+
+
+
 .cta-button{
     background-color: #113340;
     color: white;
@@ -49,6 +63,7 @@ a{
 /*header/navigation on all pages*/
 nav ul{
     padding: 0px;
+    
 }
 nav li{
     display: inline-block;
@@ -58,7 +73,9 @@ nav li{
     text-decoration: underline;
 }
 
-
+.navbar-search{
+    display: inline-block;
+}
 
 
 /*home page */
