@@ -36,6 +36,26 @@ img{
 p{
     max-width: 50ch;
 }
+
+/*Links*/
+a{
+    text-decoration: none;
+}
+/*header/navigation on all pages*/
+nav ul{
+    padding: 0px;
+}
+nav li{
+    display: inline-block;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+
+
+
 /*home page */
 .photo-merge {
     width: 500px;
