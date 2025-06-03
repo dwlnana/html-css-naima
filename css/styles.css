@@ -20,12 +20,14 @@ header a{
     display: flex;
     justify-items: center;
     align-items: center;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    margin: 30px 30px 30px -10px;
 
 }
 .navbar-logo img{
-    width: 40%;
-    border-radius: 25px;
-
+    width: 60%;
+    border-radius: 5px;
 }
 
 .navbar a{
@@ -39,6 +41,7 @@ header a{
     text-transform: uppercase;
     padding: 10px 80px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .cta-small {
@@ -63,10 +66,24 @@ footer{
     display: flex;
     gap: 25px;
 }
-.footer-copy{
-   text-align: center;
+
+.footer_companylogo >*{
+    flex: 4;
+    border-radius: 5px;
 }
 
+.footer-container{
+    max-width: 1000px;
+    display: flex;
+    gap: 50px;
+    margin: 10px 10px 10px 10px;
+    letter-spacing: 2px;
+}
+
+.footer-item ul{
+    padding: 0px;
+    margin: 5px;
+}
 
 /*Links*/
 a{
@@ -127,6 +144,12 @@ nav li{
     flex: 1;
 }
 
+.starter h1, 
+.starter a{
+    letter-spacing: 3px;text-align: center;
+    margin-top: 200px;
+}
+
 
 /*product*/
 .main_product h2, 
@@ -139,12 +162,10 @@ nav li{
     justify-content: space-between;
     text-align: left;
     box-sizing: border-box;
-    align-items: left;
     align-items: center;
 }
 
-.avaliable, 
-.footer-container{
+.avaliable{
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
@@ -152,16 +173,14 @@ nav li{
     margin: 30px;
 }
 
-.available_products img, 
-.footer-container img{
+.available_products img{
     width: 100%;
     height: auto;
-    max-height: 200pxx;
+    max-height: 200px;
     object-fit: contain;
 }
 
-.avaliable >* , 
-.footer-container > * {
+.avaliable >* {
     flex: 1;
 }
 
@@ -190,3 +209,43 @@ nav li{
     max-width: 500px;
     margin: 30px, auto;
 }
+
+/*product details page */
+.product{
+    max-width: 1000px;
+    border-style:solid;
+    border-color: #757575;
+    justify-content: space-between;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin: auto;
+    display: flex;
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    display: block;
+}
+
+.product-info{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+}
+
+.form-row{
+    display: flex;
+    gap: 5px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+
+

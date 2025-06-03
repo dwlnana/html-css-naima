@@ -31,29 +31,36 @@
         </nav>
     </header>
     <main>
-        <section>
-            <img src="../images/RainyDays_Jacket6.jpg" alt="Explorer-Jacket">
-        </section>
-        <section>
-            <h2>Men´s Anorak Explorer Jacket</h2>
-            <p>A waterproof jacket designed to keep you dry in wet weather</p>
-            <p>$149,99</p>
-
-            <label for="color">Color</label>
-            <select name="color" id="color">
-                <option value="Black">Black</option>
-                <option value="Gray">Gray</option>
-                <option value="Navy Blue">Navy Blue</option>
-            </select>
-            <label for="Size">Size</label>
-            <select name="Size" id="Size">
-                <option value="XS">XS</option>
-                <option value="S">S</option>
-                <option value="M">M</option>
-                <option value="L">L</option>
-                <option value="XL">XL</option>
-            </select>
-            <a href="../cart.html" class="cta-button"> Add To Cart</a>
+        <section class="product">
+            <div class="product-image">
+                <img src="../images/RainyDays_Jacket6.jpg" alt="Explorer-Jacket">
+            </div>
+        <div class="product-info">
+                <h2>Men´s Anorak Explorer Jacket</h2>
+                <p>A waterproof jacket designed to keep you dry in wet weather</p>
+                <p class="price">$149,99</p>
+            <div class="form-row">
+                <label for="color">Color</label>
+                <select name="color" id="color">
+                    <option value="black">Black</option>
+                    <option value="gray">Gray</option>
+                    <option value="navy blue">Navy Blue</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for= "size">Size</label>
+                <select name="size" id="size">
+                    <option value="xs">XS</option>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                </select>
+            </div> 
+            <div>
+                <a href="../cart.html" class="cta-small cta-button"> Add To Cart</a>
+            </div>
+        </div>
         </section>
     </main>
     <footer>
