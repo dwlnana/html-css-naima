@@ -144,9 +144,9 @@ nav li{
     flex: 1;
 }
 
-.starter h1, 
-.starter a{
-    letter-spacing: 3px;text-align: center;
+.starter-text{
+    letter-spacing: 3px;
+    text-align: center;
     margin-top: 200px;
 }
 
@@ -185,31 +185,22 @@ nav li{
 }
 
 /*about us page */
-.about-1, 
-.about-2{
+.aboutus{
     width: 100%;
     max-width: 1000px;
     margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus > *{
+    flex: 1;
 }
 
-.about-1 img, 
-.about-2 img {
-    width: 100%;
-    height: auto;
-    display: block;
-    max-width: 0px auto;
+.aboutus img{
     border-radius: 50%;
 }
-
-.about-1 p, 
-.about-2 p {
-    font-size: 1.1em;
-    line-height: 1.6;
-    text-align:start;
-    max-width: 500px;
-    margin: 30px, auto;
-}
-
 /*product details page */
 .product{
     max-width: 1000px;
