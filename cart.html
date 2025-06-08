@@ -30,23 +30,63 @@
 <main>
     <div class="shipping-discount">
         <p>Free shipping on orders over 100$</p>
-        <p>this is wierd</p>
     </div>
-    <section>
-        <h3>Shopping Cart</h3>
-        <div class="container">
-            <span> Item</span>
-            <span>Quantity</span>
-            <span>Price</span>
-        </div>
-    </section>
-    <section>
-        <h3>Order Summary</h3>
-        <div>
-            Total: 
-            Shipping Cost: 
-            Subtotal: 
-            <a href="confirmation.html" class="cta-button">Checkout</a>
+    <section class="cart-section">
+        <h1>Shopping Cart</h1>
+        <table class="container-cart">
+            <thead> 
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tr class="product-oncart">
+                <td>
+                    <div class="cart-info">
+                        <img src="images/RainyDays_Jacket2.jpg" alt="Shield-Jacket">
+                    </div>
+                        <div class="small-text">
+                            <p>Men´s Rain Shield Jacket</p>
+                            <small>Price: $99,99</small> <br>
+                            <a href="">Remove</a>
+                        </div>
+                </td>
+                <td><input type="number" value="1" min="1"> </td>
+                <td class="price">$99,99</td>
+            </tr>
+            <tr class="product-oncart">
+                <td>
+                    <div class="cart-info">
+                        <img src="images/RainyDays_Jacket6.jpg" alt="Explorer-Jacket">
+                    </div>
+                        <div class="small-text">
+                            <p>Men´s Anorak Explorer Jacket</p>
+                            <small>Price: $149,99</small> <br>
+                            <a href="">Remove</a>
+                        </div>
+                </td>
+                <td><input type="number" value="1" min="1"> </td>
+                <td class="price">$149,99</td>
+            </tr>
+        </table>
+        <h1>Order Summary</h1>
+        <div class="summary">
+            <table>
+                <tr>
+                    <td>Total</td>
+                    <td class="price">$249,98</td>
+                </tr>
+                <tr>
+                    <td>Shipping Cost</td>
+                    <td class="price">$15,00</td>
+                </tr>
+                <tr>
+                    <td>Subtotal</td>
+                    <td class="price">$264,98</td>
+                    <td> <a href="confirmation.html" class="cta-button">Checkout</a></td>
+                </tr>
+            </table>
         </div>
     </section>
 </main>
