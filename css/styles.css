@@ -3,8 +3,24 @@ body,
 p{
     font-family: "Inria sans", Verdana, Geneva, Tahoma, sans-serif ;
 }
-body{
+body, 
+html{
     min-height: 100vh;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1;
+}
+
+footer{
+    padding: 15px 0;
 }
 header{
     background-color:#113340;
@@ -381,12 +397,10 @@ th{
     font-weight: bold;
 }
 
-.cart-section{
-    margin: 50px auto;
-    padding-left: 20px;
+.checkout-button{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px 30px;
+
 }
 
-.summary{
-    display: flex;
-    justify-content: flex-end;
-}
