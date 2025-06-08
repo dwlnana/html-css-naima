@@ -414,5 +414,29 @@ main{
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
 
+@media (max-width: 768px){
+    body{
+        font-size: 16px;
+        padding: 10px;
+        background-color: #fff;
+    }
+}
+h1{
+    font-size: 24px;
+}
+nav{
+flex-direction: column;
+align-items: flex-start;  
+}
+
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
