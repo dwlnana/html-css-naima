@@ -3,11 +3,8 @@ body,
 p{
     font-family: "Inria sans", Verdana, Geneva, Tahoma, sans-serif ;
 }
-.body{
+body{
     min-height: 100vh;
-    margin: 0pc;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
 }
 header{
     background-color:#113340;
@@ -16,28 +13,53 @@ header{
 
 header a{
     color: white;
-    padding: 10px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline-block;
 }
 
 .navbar{
     width: 100%;
     padding: 10px 20px;
-    display: flex;
-    justify-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     font-size: 1.5em;
     letter-spacing: 3px;
-    margin: 30px 30px 30px -10px;
+    padding: 10px 30px;
+    gap: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+
 
 }
 .navbar-logo img{
-    width: 60%;
-    border-radius: 5px;
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
 }
 
-.navbar a{
-    margin-left: 0px;
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
 }
+
+.header-icons{
+    display: flex;
+    gap: 15px;
+}
+
+
 
 .cta-button{
     background-color: #113340;
@@ -80,51 +102,50 @@ p{
 footer{
     background-color: #113340;
     color: white;
-    display: flex;
-    gap: 25px;
+    padding: 30px 20px;
 }
 
-.footer_companylogo >*{
-    flex: 4;
-    border-radius: 5px;
+.footer_companylogo img{
+    height: 150px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    display: block;
 }
 
 .footer-container{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto 1fr;
+    align-items: start;
+    font-size: 1em;
+    letter-spacing: 1px;
+    gap: 60px;
     max-width: 1000px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.footer-sections{
     display: flex;
-    gap: 50px;
-    margin: 10px 10px 10px 10px;
-    letter-spacing: 2px;
+    justify-content: flex-end;
+    gap: 60px;
+    width: 100%;
 }
-
-.footer-item ul{
-    padding: 0px;
-    margin: 5px;
+.footer-item{
+    min-width: 150px;
 }
-
-.footer-link{
-    color: white;
-}
+.footer-link, 
 .footer-aboutus{
-    color: white;
+    color: #fff;
+    text-decoration: none;
 }
+
 /*Links*/
 a{
     text-decoration: none;
 }
-/*header/navigation on all pages*/
-nav ul{
-    padding: 0px;
-    
-}
-nav li{
-    display: inline-block;
-}
-
-.active{
-    text-decoration: underline;
-}
-
 
 /*home page */
 .photo-merge {
