@@ -78,10 +78,7 @@ nav li{
     align-self: center;
     margin-top: 25px;
 }
-.shipping-discount{
-    background-color: #113340;
-    color: white;
-}
+
 img{
     background-color: white;
     width: 100%;
@@ -319,4 +316,18 @@ a{
 
 .product-info p{
     letter-spacing: 1.5px;
+}
+
+
+/*cart page*/
+.shipping-discount{
+    background-color: #113340;
+    color: red;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
