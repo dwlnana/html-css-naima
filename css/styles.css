@@ -385,3 +385,8 @@ th{
     margin: 50px auto;
     padding-left: 20px;
 }
+
+.summary{
+    display: flex;
+    justify-content: flex-end;
+}
