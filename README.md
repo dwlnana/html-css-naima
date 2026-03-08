@@ -16,4 +16,4 @@ This project demonstrates the following:
 ### Updated Version
 
 I have made further updates to this project in another repository. You can view it here:
-[View the website](https://dwlnana.github.io/html-css-update/about-us.html)
+[View the website](https://dwlnana.github.io/html-css-update/)
