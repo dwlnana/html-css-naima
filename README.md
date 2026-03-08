@@ -2,6 +2,8 @@
 
 ## A fully responsive project built using only HTML and CSS
 
+**Live Site:** [View the website](https://dwlnana.github.io/html-css-naima/)
+
 In this project, I used my newly acquired HTML and CSS skills to transform my Rainy Days design (from the Design Course) into a functional website.
 
 This project demonstrates the following:
